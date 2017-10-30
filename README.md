@@ -18,7 +18,7 @@ The application will turn user input into a Places object and return that object
 * Example Input: Barcelona
 * Example Output: alert - "Barcelona object details"
 
-The application will take user input and create a list item on the lefts side of the screen (future link to the info card).
+The application will take user input and create a list item on the left side of the screen (future link to the info card).
 * Example Input: Barcelona
 * Example Output: Barcelona list item in link list (left side of screen)
 

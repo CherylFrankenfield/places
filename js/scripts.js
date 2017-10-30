@@ -8,11 +8,12 @@ function Place(name) {
 //front-end foolery
 $(document).ready(function() {
   $("#newPlace").submit(function(event){
-  event.preventDefault;
+  event.preventDefault();
+
 
   var userInput = $("#placeName").val();
-  var place = new Place(userInput);
-  debugger;
-  alert(place.name);
+  var newPlace = new Place(userInput);
+
+  $("#place-list").append("<li><span class='place'>" + newPlace.name + "</span></li>");
   });
 });
