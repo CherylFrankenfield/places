@@ -22,7 +22,7 @@ The application will take user input and create a list item on the left side of 
 * Example Input: Barcelona
 * Example Output: Barcelona list item in link list (left side of screen)
 
-Display places object on the right side of the screen after creation
+Display places object information on the right side of the screen after creation
 * Input: Barcelona
 * Output: new info card displaying location information onscreen
 
